@@ -1,0 +1,16 @@
+# Requirements for Intelligent Interruption Handling Agent
+# Install with: pip install -r intelligent_interruption_requirements.txt
+
+# Core LiveKit Agents framework with required plugins
+livekit-agents[openai,cartesia,deepgram,silero,turn-detector]>=1.0
+
+# Environment variable management
+python-dotenv>=1.0
+
+# Note: You'll also need to set up the following environment variables in a .env file:
+# LIVEKIT_URL=wss://your-livekit-server.livekit.cloud
+# LIVEKIT_API_KEY=your-api-key
+# LIVEKIT_API_SECRET=your-api-secret
+# OPENAI_API_KEY=your-openai-key
+# DEEPGRAM_API_KEY=your-deepgram-key
+# CARTESIA_API_KEY=your-cartesia-key
