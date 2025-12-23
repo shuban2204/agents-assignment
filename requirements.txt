@@ -1,0 +1,82 @@
+# LiveKit Agents - Core Dependencies
+# ===================================
+
+# Core Framework
+livekit>=1.0.19,<2
+livekit-api>=1.0.7,<2
+livekit-protocol>=1.1,<2
+
+# CLI and Utilities
+typer>=0.15.1
+click~=8.1
+colorama>=0.4.6
+
+# Async and Networking
+aiohttp~=3.10
+aiofiles>=24
+nest-asyncio>=1.6.0
+certifi>=2025.6.15
+
+# Data Processing
+numpy>=1.26.0
+pydantic>=2.0,<3
+protobuf>=3
+types-protobuf>=4
+
+# Audio/Video Processing
+av>=14.0.0,<16
+sounddevice>=0.5
+
+# Authentication
+pyjwt>=2.0
+
+# Monitoring and Telemetry
+opentelemetry-api>=1.34
+opentelemetry-sdk>=1.34.1
+opentelemetry-exporter-otlp>=1.34.1
+prometheus-client>=0.22
+
+# System Utilities
+psutil>=7.0
+watchfiles>=1.0
+
+# AI/LLM Integration
+openai>=1.99.2
+
+# Parsing and Type Support
+docstring_parser>=0.16
+typing-extensions>=4.12
+eval-type-backport
+
+# Development Dependencies
+# ========================
+python-dotenv>=1.0.1
+pytest>=7.0.0
+pytest-asyncio>=0.25.3
+mypy
+ruff
+
+# Optional: Common Plugins for Voice Agents
+# =========================================
+# Uncomment the plugins you need:
+
+# Speech-to-Text (STT)
+# livekit-plugins-deepgram>=1.3.3
+# livekit-plugins-assemblyai>=1.3.3
+# livekit-plugins-google>=1.3.3
+
+# Text-to-Speech (TTS)
+# livekit-plugins-elevenlabs>=1.3.3
+# livekit-plugins-cartesia>=1.3.3
+# livekit-plugins-openai>=1.3.3
+
+# LLM Providers
+# livekit-plugins-openai>=1.3.3
+# livekit-plugins-anthropic>=1.3.3
+# livekit-plugins-groq>=1.3.3
+
+# Voice Activity Detection (VAD)
+# livekit-plugins-silero>=1.3.3
+
+# Turn Detection
+# livekit-plugins-turn-detector>=1.3.3
